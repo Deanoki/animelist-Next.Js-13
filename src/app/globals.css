@@ -11,10 +11,6 @@
 }
 
 img {
-  width: 100%;
-  min-height: 300px;
-  max-height: 400px;
-  height: auto;
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-all;
@@ -24,4 +20,5 @@ img {
 
 img:hover {
   scale: 102%;
+  box-shadow: inset 10px #0000;
 }
